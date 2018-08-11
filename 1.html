@@ -2,28 +2,63 @@
   <head>
     <title>Tail's PROJECT</title>
     <mata charset="utf-8">
+      <style>
+      a {
+        color:black;
+      }
+      h1 {
+        font-size:280%;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding: 40px;
+        margin: 0;
+      }
+      #list {
+        border-right: 1px solid gray;
+        width: 200px;
+        margin: 0px;
+        padding:10px;
+        padding-left: 5px;
+        padding-right: 20px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 210px 1fr;
+      }
+      #본문 {
+        padding-left: 36px;
+      }
+
+      </style>
   </head>
+
+
   <body>
     <h1><a href="index.html">Tail's PROJECT</a></h1>
-    <ol>
-      <li><a href="4.html">독서모임<a></li>
-      <li><a href="1.html">날씨&미세먼지 액자</a></li>
-      <li><a href="2.html">수거맨</a></li>
-      <li><a href="3.html">코딩야학<a></li>
-    </ol>
+    <div id="grid">
+      <div id="list">
+      <ol>
+        <li><a href="4.html">독서모임</a></li>
+        <li><a href="1.html" style>날씨&미세먼지 액자</a></li>
+        <li><a href="2.html">수거맨</a></li>
+        <li><a href="3.html">코딩야학</a></li>
+      </ol>
+      </div>
 
-    <p>
-    <h2>실시간 날씨&미세먼지 액자</h2>
-    인터넷과 연결되어, 실시간 날씨 어플을 제공한다.
-    <strong>굳이 사람들이 <u>날씨와 미세먼지</u>를 검색하지 않아도</strong> 사무실에 앉아 한눈에 날씨를 확인할 수 있게 한다.
-    <h3>필수적인 기능</h3>
-      <br>취침모드: 자는 시간 동안에는 화면을 꺼서 취침에 방해되지 않게 한다.
-      <br>기상모드: 은은하게 화면을 밝혀준다. (부차적으로 음악기능과 날씨 알림기능도 가능할듯 ㅋㅋㅋ)
-    /<h3>경쟁자</h3>
-    <a href="https://kakao.ai/" target="_blank" title="카카오미니 공식홈페이지">카카오미니</a><br>
-    미세먼지 측정기
-    <img src="사진1.jpg" width="99%">
-</p>
+      <div id="본문">
+      <h2>실시간 날씨&미세먼지 액자</h2>
+      인터넷과 연결되어, 실시간 날씨 어플을 제공한다.
+      <strong>굳이 사람들이 <u>날씨와 미세먼지</u>를 검색하지 않아도</strong> 사무실에 앉아 한눈에 날씨를 확인할 수 있게 한다.
+      <h3>필수적인 기능</h3>
+        <br>취침모드: 자는 시간 동안에는 화면을 꺼서 취침에 방해되지 않게 한다.
+        <br>기상모드: 은은하게 화면을 밝혀준다. (부차적으로 음악기능과 날씨 알림기능도 가능할듯 ㅋㅋㅋ)
+      /<h3>경쟁자</h3>
+      <a href="https://kakao.ai/" target="_blank" title="카카오미니 공식홈페이지">카카오미니</a><br>
+      미세먼지 측정기
+      <img src="사진1.jpg" width="99%">
+      </div>
+    </div>
+
     <p>
 
       <!-- 라이브리 시티 설치 코드 -->

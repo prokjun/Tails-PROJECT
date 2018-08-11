@@ -2,21 +2,56 @@
   <head>
     <title>Tail's PROJECT</title>
     <mata charset="utf-8">
+      <style>
+      a {
+        color:black;
+      }
+      h1 {
+        font-size:280%;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding: 40px;
+        margin: 0;
+      }
+      #list {
+        border-right: 1px solid gray;
+        width: 200px;
+        margin: 0px;
+        padding:10px;
+        padding-left: 5px;
+        padding-right: 20px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 210px 1fr;
+      }
+      #본문 {
+        padding-left: 36px;
+      }
+
+      </style>
   </head>
   <body>
     <h1><a href="index.html">Tail's PROJECT</a></h1>
-    <ol>
-      <li><a href="4.html">독서모임<a></li>
-      <li><a href="1.html">날씨&미세먼지 액자</a></li>
-      <li><a href="2.html">수거맨</a></li>
-      <li><a href="3.html">코딩야학<a></li>
-    </ol>
-    <h2>Tail's PROJECT</h2>
-    <p>
-      2018 테일의 프로젝트<br>
-      뭐할까.. 그냥 아이디어 떠오르는 거 실행해보기
-      가능하면 이걸로 월 200만원도 벌어보자. ㅋㅋㅋ
-    </p>
+    <div id="grid">
+      <div id="list">
+        <ol>
+          <li><a href="4.html">독서모임<a></li>
+          <li><a href="1.html">날씨&미세먼지 액자</a></li>
+          <li><a href="2.html">수거맨</a></li>
+          <li><a href="3.html">코딩야학<a></li>
+        </ol>
+      </div>
+      <div id="본문">
+        <h2>Tail's PROJECT</h2>
+        <p>
+          2018 테일의 프로젝트<br>
+          뭐할까.. 그냥 아이디어 떠오르는 거 실행해보기
+          가능하면 이걸로 월 200만원도 벌어보자. ㅋㅋㅋ
+        </p>
+      </div>
+    </div>
+
 
     <p>
 

@@ -2,21 +2,57 @@
   <head>
     <title>Tail's PROJECT</title>
     <mata charset="utf-8">
+      <style>
+      a {
+        color:black;
+      }
+      h1 {
+        font-size:280%;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding: 40px;
+        margin: 0;
+      }
+      #list {
+        border-right: 1px solid gray;
+        width: 200px;
+        margin: 0px;
+        padding:10px;
+        padding-left: 5px;
+        padding-right: 20px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 210px 1fr;
+      }
+      #본문 {
+        padding-left: 36px;
+      }
+
+      </style>
   </head>
   <body>
     <h1><a href="index.html">Tail's PROJECT</a></h1>
-    <ol>
-      <li><a href="4.html">독서모임<a></li>
-      <li><a href="1.html">날씨&미세먼지 액자</a></li>
-      <li><a href="2.html">수거맨</a></li>
-      <li><a href="3.html">코딩야학<a></li>
-    </ol>
-    <h2>수거맨</h2>
-    <p>분리수거를 대신 해준다.<BR>
+    <div id="grid">
+      <div id="list">
+      <ol>
+        <li><a href="4.html">독서모임</a></li>
+        <li><a href="1.html" style>날씨&미세먼지 액자</a></li>
+        <li><a href="2.html">수거맨</a></li>
+        <li><a href="3.html">코딩야학</a></li>
+      </ol>
+      </div>
 
-    더운 무더위, 음식물쓰레기와 분리수거는 쌓여가고 남편은 쇼파에 누워 움직이지 않는다구요?
-    지금 바로 신청하세요!! ㅋㅋ 월 2만원에 음식물쓰레기와 분리수거를 대신 해드립니다.
-    </p>
+      <div id="본문">
+        <h2>수거맨</h2>
+        <p>분리수거를 대신 해준다.<BR>
+
+        더운 무더위, 음식물쓰레기와 분리수거는 쌓여가고 남편은 쇼파에 누워 움직이지 않는다구요?
+        지금 바로 신청하세요!! ㅋㅋ 월 2만원에 음식물쓰레기와 분리수거를 대신 해드립니다.
+        </p>
+      </div>
+    </div>
+
 
     <p>
 
