@@ -1,0 +1,25 @@
+a {
+  color:black;
+}
+h1 {
+  font-size:280%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 40px;
+  margin: 0;
+}
+#list {
+  border-right: 1px solid gray;
+  width: 200px;
+  margin: 0px;
+  padding:10px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+}
+#본문 {
+  padding-left: 36px;
+}
